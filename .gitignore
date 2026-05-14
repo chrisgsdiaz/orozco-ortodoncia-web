@@ -15,9 +15,20 @@
 /wp-content/uploads/
 /wp-content/cache/
 /wp-content/upgrade/
-/wp-content/backup*/
 /wp-content/ai1wm-backups/
 /wp-content/debug.log
+
+# Themes default de WordPress
+/wp-content/themes/twentytwenty*/
+/wp-content/themes/twentytwentyfive/
+
+# Backups y exports pesados
+*.sql
+*.sql.gz
+*.zip
+
+# Logs
+*.log
 
 # Sistema
 .DS_Store
