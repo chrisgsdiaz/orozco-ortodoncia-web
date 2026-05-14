@@ -1,4 +1,4 @@
-# WordPress core
+ # WordPress core
 /wp-admin/
 /wp-includes/
 /index.php
@@ -18,9 +18,16 @@
 /wp-content/ai1wm-backups/
 /wp-content/debug.log
 
-# Themes default de WordPress
+# Plugins descargados
+/wp-content/plugins/
+
+# Themes descargados/default
+/wp-content/themes/astra/
 /wp-content/themes/twentytwenty*/
 /wp-content/themes/twentytwentyfive/
+
+# Si después creas un tema hijo, sí se puede versionar
+!/wp-content/themes/orozco-child/
 
 # Backups y exports pesados
 *.sql
