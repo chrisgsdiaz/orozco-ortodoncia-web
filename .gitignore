@@ -21,10 +21,15 @@
 # Plugins descargados
 /wp-content/plugins/
 
-# Themes descargados/default
-/wp-content/themes/astra/
+# Themes default de WordPress
 /wp-content/themes/twentytwenty*/
+/wp-content/themes/twentytwenty/
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentyfour/
 /wp-content/themes/twentytwentyfive/
+
+# Traducciones generadas por WordPress
+/wp-content/languages/
 
 # Si después creas un tema hijo, sí se puede versionar
 !/wp-content/themes/orozco-child/
